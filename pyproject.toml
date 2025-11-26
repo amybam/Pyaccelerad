@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyaccelerad"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python interface for Accelerad, mimicking Pyradiance."
 readme = "README.md"
 requires-python = ">=3.6"
@@ -23,8 +23,4 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/nljones/Accelerad" 
-# Note: User didn't provide a repo for this specific package, so I'll leave it or point to Accelerad for now, 
-# but ideally this should be the repo for pyaccelerad. 
-# I'll omit Homepage if I don't have it, or maybe the user wants to put their own. 
-# I'll put a placeholder or omit.
+"Homepage" = "https://github.com/amybam/Pyaccelerad" 
