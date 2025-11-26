@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyaccelerad"
+version = "0.1.0"
+description = "Python interface for Accelerad, mimicking Pyradiance."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Kevin Huberty"}
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+  "pyradiance", 
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nljones/Accelerad" 
+# Note: User didn't provide a repo for this specific package, so I'll leave it or point to Accelerad for now, 
+# but ideally this should be the repo for pyaccelerad. 
+# I'll omit Homepage if I don't have it, or maybe the user wants to put their own. 
+# I'll put a placeholder or omit.
